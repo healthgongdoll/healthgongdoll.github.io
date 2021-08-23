@@ -8,7 +8,7 @@ categories: OperatingSystem
 ### **Process** <br/>
  A program in execution;  process execution must progess in sequntial fashion 
 
-### **Structure of Process**: <br/>
+### **Structure of Process**:
  <br/>
 	1. **Text Section**: Program code <br/>
 	2. **Program Counter**: Processor registers <br/>
