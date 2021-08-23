@@ -7,31 +7,24 @@ categories: OperatingSystem
 
 Process - a program in execution; process execution must progess in sequntial fashion 
 
-Structure of Process: 
-
-	1. **Text Section**: Program code
-
-	2. **Program Counter**: Processor registers 
-
-	3. **Stack**: Temporary Data (Function Parameters, return address, local variables)
-
-	4. **Data section**: contains global variable 
-
-	5. **Heap**: containing memory dynamically allocated during run time 
+Structure of Process: <br/>
+	1. **Text Section**: Program code <br/>
+	2. **Program Counter**: Processor registers <br/>
+	3. **Stack**: Temporary Data (Function Parameters, return address, local variables) <br/>
+	4. **Data section**: contains global variable  <br/>
+	5. **Heap**: containing memory dynamically allocated during run time <br/>
 
 
-Program is passive entity stored on disk (executable file). However, Process is active 
-
-	- Program becomes process when executable file loaded into memory 
-
-	- One program can be several processes
+Program is passive entity stored on disk (executable file). However, Process is active <br/>
+	- Program becomes process when executable file loaded into memory <br/>
+	- One program can be several processes <br/>
 
 
 
-![Image Alt ProcessMemory](/assets/img/process_memory.png)
+![Image Alt ProcessMemory](/assets/process_memory.png)
 (Image of Process Structure)
 
-![Image Alt MemoryLayout](/assets/img/MemoryLayout.png)
+![Image Alt MemoryLayout](/assets/MemoryLayout.png)
 (Image of Memory Layout of a C program)
 
 
