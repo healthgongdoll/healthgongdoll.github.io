@@ -6,26 +6,32 @@ categories: OperatingSystem
 ---
 
 ### **Process** <br/>
- a program in execution; process execution must progess in sequntial fashion 
+ A program in execution;  process execution must progess in sequntial fashion 
 
 ### **Structure of Process**: <br/>
-	1. **Text Section**: Program code <br/>
-	2. **Program Counter**: Processor registers <br/>
-	3. **Stack**: Temporary Data (Function Parameters, return address, local variables) <br/>
-	4. **Data section**: contains global variable  <br/>
-	5. **Heap**: containing memory dynamically allocated during run time <br/>
+	1. **Text Section**: Program code 
+	2. **Program Counter**: Processor registers 
+	3. **Stack**: Temporary Data (Function Parameters, return address, local variables)
+	4. **Data section**: contains global variable 
+	5. **Heap**: containing memory dynamically allocated during run time
+
 
 <br/>
-###### Program is passive entity stored on disk (executable file). However, Process is active <br/>
+### Program is passive entity stored on disk (executable file). However, Process is active <br/>
 	- Program becomes process when executable file loaded into memory <br/>
 	- One program can be several processes <br/>
 
 <br/>
+<br/>
+* * *
 ![Image Alt ProcessMemory](/assets/process_memory.png) <br/>
 (Image of Process Structure) <br/>
 <br/>
+* * *
+<br/>
 ![Image Alt MemoryLayout](/assets/MemoryLayout.png) <br/>
 (Image of Memory Layout of a C program) <br/>
+<br/>
 <br/>
 ### **Process State** As a process executes, it changes **state** <br/>
 	- **New**: The process is being created <br/>
@@ -34,7 +40,7 @@ categories: OperatingSystem
 	- **Ready**: The process is waiting to be assigned to a processor <br/>
 	- **Terminated**: The process has finished execution 
 
-###**Diagram of Process State** <br/>
+### **Diagram of Process State** <br/>
 ![Image Alt MemoryLayout](/assets/process_state.png) <br/>
 <br/>
 
@@ -49,7 +55,7 @@ Also Known as **PCB** <br/>
 	- **Accounting Information**: CPU used, clock time <br/>
 	- **I/O status information**: I/O devices allocated to process, list of open files <br/>
 
-###**Threads** <br/>
+### **Threads** <br/>
 <br/>
 
 <!-- 
