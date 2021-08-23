@@ -3,7 +3,7 @@ layout: post
 title:  "Processor"
 date:   2021-08-23 16:26:36 +0530
 categories: OperatingSystem
----
+
 
 Process - a program in execution; process execution must progess in sequntial fashion 
 
@@ -52,7 +52,7 @@ Program is passive entity stored on disk (executable file). However, Process is 
 
 
 
-
+---
 
 <!-- ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
