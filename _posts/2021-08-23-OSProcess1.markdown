@@ -10,17 +10,18 @@ categories: OperatingSystem
 
 ### **Structure of Process**: <br/>
  <br/>
-	1. **Text Section**: Program code 
-	2. **Program Counter**: Processor registers 
-	3. **Stack**: Temporary Data (Function Parameters, return address, local variables)
-	4. **Data section**: contains global variable 
-	5. **Heap**: containing memory dynamically allocated during run time
+	1. **Text Section**: Program code <br/>
+	2. **Program Counter**: Processor registers <br/>
+	3. **Stack**: Temporary Data (Function Parameters, return address, local variables) <br/>
+	4. **Data section**: contains global variable <br/>
+	5. **Heap**: containing memory dynamically allocated during run time <br/>
 
 
 <br/>
 ### Program is passive entity stored on disk (executable file). However, Process is active <br/>
-	- Program becomes process when executable file loaded into memory 
-	- One program can be several processes 
+<br/>
+	- Program becomes process when executable file loaded into memory <br/>
+	- One program can be several processes <br/>
 
 <br/>
 <br/>
