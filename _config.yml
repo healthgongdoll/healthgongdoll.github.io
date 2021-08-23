@@ -11,7 +11,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Jay Chung
-  tagline: Lift. Develop. Photograph
+  tagline: Lifter. Developer. Photographer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -25,7 +25,7 @@ plainwhite:
   # generate social links in footer
   social_links:
     github:  healthgongdoll
-    linkedIn: jay-chung-9295881a4
+    linkedIn: in/jay-chung-9295881a4
     #dribbble: jekyll
     #flickr:   jekyll
     instagram: 96_jyc
