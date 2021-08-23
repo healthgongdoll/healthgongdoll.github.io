@@ -20,13 +20,11 @@ Program is passive entity stored on disk (executable file). However, Process is 
 	- One program can be several processes <br/>
 
 
----
 ![Image Alt ProcessMemory](/assets/process_memory.png) <br/>
 (Image of Process Structure) <br/>
 
 ![Image Alt MemoryLayout](/assets/MemoryLayout.png) <br/>
 (Image of Memory Layout of a C program) <br/>
----
 
 프로세스란? <br/>
 	- 실행중에 있는 프로그램을 얘기한다. <br/>
