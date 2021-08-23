@@ -3,7 +3,7 @@ layout: post
 title:  "Computer Security & Science Blog"
 date:   2021-08-23 15:38:36 +0530
 categories: Java
-
+---
 Starting New CS & CSec Blog!
 Learn about Algorithms, Computer Science Basics, Networking System
 
@@ -18,6 +18,7 @@ To contact Jay Chung
 	System.out.println("Please contact me through -  ");
 	SYstem.out.println("wayne0954@hotmail.com");
 ```
+
 <!-- ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 
