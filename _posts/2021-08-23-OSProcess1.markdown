@@ -9,6 +9,7 @@ categories: OperatingSystem
  A program in execution;  process execution must progess in sequntial fashion 
 
 ### **Structure of Process**: <br/>
+ <br/>
 	1. **Text Section**: Program code 
 	2. **Program Counter**: Processor registers 
 	3. **Stack**: Temporary Data (Function Parameters, return address, local variables)
@@ -35,10 +36,10 @@ categories: OperatingSystem
 <br/>
 ### **Process State** <br/>
 As a process executes, it changes **state** <br/>
-	- **New**: The process is being created 
-	- **Running**: Instruction are being executed 
-	- **Waiting**: The process is waiting for some event to occur 
-	- **Ready**: The process is waiting to be assigned to a processor 
+	- **New**: The process is being created <br/>
+	- **Running**: Instruction are being executed <br/>
+	- **Waiting**: The process is waiting for some event to occur <br/>
+	- **Ready**: The process is waiting to be assigned to a processor <br/>
 	- **Terminated**: The process has finished execution 
 
 ### **Diagram of Process State** <br/>
