@@ -21,34 +21,26 @@ Program is passive entity stored on disk (executable file). However, Process is 
 
 
 
-![Image Alt ProcessMemory](/assets/process_memory.png)
-(Image of Process Structure)
+![Image Alt ProcessMemory](/assets/process_memory.png) <br/>
+(Image of Process Structure) <br/>
 
-![Image Alt MemoryLayout](/assets/MemoryLayout.png)
-(Image of Memory Layout of a C program)
+![Image Alt MemoryLayout](/assets/MemoryLayout.png) <br/>
+(Image of Memory Layout of a C program) <br/>
 
 
-프로세스란? 
+프로세스란? <br/>
+	- 실행중에 있는 프로그램을 얘기한다. <br/>
 
-	- 실행중에 있는 프로그램을 얘기한다. 
+프로세스의 구조 <br/>
+	- **텍스트 섹션**: 프로그램을 실행시키는 실행파일 내의 명령어 <br/>
+	- **프로그램 카운터**: 프로세서의 레지스터 <br/>
+	- **스택**: 지역변수, 함수 호출시 전달되는 파라미터를 위한 메모리 영역 <br/>
+	- **데이터 섹션**: 전역변수나, static 변수의 할당 <br/>
+	- **힙**: 동적할당을 위한 메모리 영역 <br/>
 
-프로세스의 구조
-
-	- 텍스트 섹션: 프로그램을 실행시키는 실행파일 내의 명령어
-
-	- 프로그램 카운터: 프로세서의 레지스터 
-
-	- 스택: 지역변수, 함수 호출시 전달되는 파라미터를 위한 메모리 영역
-
-	- 데이터 섹션: 전역변수나, static 변수의 할당
-
-	- 힙: 동적할당을 위한 메모리 영역
-
-프로그램은 디스크의 저장된 수동적인 객체, 프로세스는 활동적인 객체를 의미 
-
-	- 해당 프로그램의 실행파일이 메모리로 로드가 되면 프로그램은 프로세스가 된다
-
-	- 하나의 프로그램이 여러개의 프로세스가 될 수 있음
+프로그램은 디스크의 저장된 수동적인 객체, 프로세스는 활동적인 객체를 의미 <br/>
+	- 해당 프로그램의 실행파일이 메모리로 로드가 되면 프로그램은 프로세스가 된다<br/>
+	- 하나의 프로그램이 여러개의 프로세스가 될 수 있음<br/>
 
 
 
