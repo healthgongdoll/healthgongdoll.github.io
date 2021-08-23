@@ -18,8 +18,8 @@ categories: OperatingSystem
 
 <br/>
 ### Program is passive entity stored on disk (executable file). However, Process is active <br/>
-	- Program becomes process when executable file loaded into memory <br/>
-	- One program can be several processes <br/>
+	- Program becomes process when executable file loaded into memory 
+	- One program can be several processes 
 
 <br/>
 <br/>
@@ -34,10 +34,10 @@ categories: OperatingSystem
 <br/>
 <br/>
 ### **Process State** As a process executes, it changes **state** <br/>
-	- **New**: The process is being created <br/>
-	- **Running**: Instruction are being executed <br/>
-	- **Waiting**: The process is waiting for some event to occur <br/>
-	- **Ready**: The process is waiting to be assigned to a processor <br/>
+	- **New**: The process is being created 
+	- **Running**: Instruction are being executed 
+	- **Waiting**: The process is waiting for some event to occur 
+	- **Ready**: The process is waiting to be assigned to a processor 
 	- **Terminated**: The process has finished execution 
 
 ### **Diagram of Process State** <br/>
@@ -45,18 +45,15 @@ categories: OperatingSystem
 <br/>
 
 ### **Process Control Block** <br/>
-<br/>
 Also Known as **PCB** <br/>
-	- **Process State**: running, waiting, etc <br/>
-	- **Program Counter**: location of instruction to next execute <br/>
-	- **CPU registers**: contents of all process registers <br/>
-	- **CPU Scheduling information**: scheduling queue pointers, priorities <br/>
-	- **Memory Management Information**: memory allocated to the process <br/>
-	- **Accounting Information**: CPU used, clock time <br/>
-	- **I/O status information**: I/O devices allocated to process, list of open files <br/>
+	- **Process State**: running, waiting, etc 
+	- **Program Counter**: location of instruction to next execute 
+	- **CPU registers**: contents of all process registers 
+	- **CPU Scheduling information**: scheduling queue pointers, priorities 
+	- **Memory Management Information**: memory allocated to the process 
+	- **Accounting Information**: CPU used, clock time 
+	- **I/O status information**: I/O devices allocated to process, list of open files 
 
-### **Threads** <br/>
-<br/>
 
 <!-- 
 프로세스란? <br/>
