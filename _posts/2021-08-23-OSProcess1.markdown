@@ -8,36 +8,53 @@ categories: OperatingSystem
 Process - a program in execution; process execution must progess in sequntial fashion 
 
 Structure of Process: 
-	1. Text Section: Program code
-	2. Program Counter: Processor registers 
-	3. Stack: Temporary Data (Function Parameters, return address, local variables)
-	4. Data section: contains global variable 
-	5. Heap: containing memory dynamically allocated during run time 
+
+	1. **Text Section**: Program code
+
+	2. **Program Counter**: Processor registers 
+
+	3. **Stack**: Temporary Data (Function Parameters, return address, local variables)
+
+	4. **Data section**: contains global variable 
+
+	5. **Heap**: containing memory dynamically allocated during run time 
+
 
 Program is passive entity stored on disk (executable file). However, Process is active 
+
 	- Program becomes process when executable file loaded into memory 
+
 	- One program can be several processes
 
 
-![Image Alt ProcessMemory](/assets/img/image.png)
+
+![Image Alt ProcessMemory](/assets/img/process_memory.png)
 (Image of Process Structure)
 
-![Image Alt MemoryLayout](/assets/img/image.png)
+![Image Alt MemoryLayout](/assets/img/MemoryLayout.png)
 (Image of Memory Layout of a C program)
 
 
-프로세스란? \n
-	- 실행중에 있는 프로그램을 얘기한다. \n
+프로세스란? 
+
+	- 실행중에 있는 프로그램을 얘기한다. 
 
 프로세스의 구조
+
 	- 텍스트 섹션: 프로그램을 실행시키는 실행파일 내의 명령어
+
 	- 프로그램 카운터: 프로세서의 레지스터 
+
 	- 스택: 지역변수, 함수 호출시 전달되는 파라미터를 위한 메모리 영역
+
 	- 데이터 섹션: 전역변수나, static 변수의 할당
+
 	- 힙: 동적할당을 위한 메모리 영역
 
 프로그램은 디스크의 저장된 수동적인 객체, 프로세스는 활동적인 객체를 의미 
+
 	- 해당 프로그램의 실행파일이 메모리로 로드가 되면 프로그램은 프로세스가 된다
+
 	- 하나의 프로그램이 여러개의 프로세스가 될 수 있음
 
 
