@@ -18,15 +18,16 @@ Program is passive entity stored on disk (executable file). However, Process is 
 	- Program becomes process when executable file loaded into memory 
 	- One program can be several processes
 
-- ![Image Alt ProcessMemory](/assets/img/image.png)
+
+![Image Alt ProcessMemory](/assets/img/image.png)
 (Image of Process Structure)
 
-- ![Image Alt MemoryLayout](/assets/img/image.png)
+![Image Alt MemoryLayout](/assets/img/image.png)
 (Image of Memory Layout of a C program)
 
 
-프로세스란?
-	- 실행중에 있는 프로그램을 얘기한다. 
+프로세스란? \n
+	- 실행중에 있는 프로그램을 얘기한다. \n
 
 프로세스의 구조
 	- 텍스트 섹션: 프로그램을 실행시키는 실행파일 내의 명령어
