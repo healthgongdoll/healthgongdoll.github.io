@@ -19,7 +19,6 @@ categories: OperatingSystem
 
 <br/>
 ### Program is passive entity stored on disk (executable file). However, Process is active
-<br/>
 	- Program becomes process when executable file loaded into memory <br/>
 	- One program can be several processes <br/>
 
