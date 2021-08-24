@@ -15,6 +15,21 @@ categories: OperatingSystem
 		+ Ready Queue - set all processes residing in main memory, ready and waiting to execute <br/>
 		+ Wait Queue - set of processes waiting for an event (I/O) <br/>
 
+### **Process Scheduling** <br/>
+![Image Alt MemoryLayout](/assets/process_scheduling.png) <br/>
+
+Above the diagram, <br/>
+	- Rectangle represents a queue.
+	- Circle denotes the resource.
+	- Arrow indicates the flow of the process 
+<br/>
+1. Every new process first put in the ready queue. It waits in the ready queue until it is processed for execution. <br/>
+2. One of the processes is allocated the CPU and it is executing <br/>
+3. The process should issue an I/O request <br/>
+4. Then, it should be placed in the I/O queue<br/>
+5. The process should create a new subprocess<br/>
+6. The process should be waiting for its termination<br/>
+7. it should remove forcefully from the CPU, as a result interrupt. Once interrupt is completed, it should be sent back to ready queue. <br/>
 
 
 
