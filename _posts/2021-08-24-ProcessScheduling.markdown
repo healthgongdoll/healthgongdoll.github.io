@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Processor"
-date:   2021-08-23 16:26:36 +0530
+title:  "Process Scheduling"
+date:   2021-08-24 11:23:36 +0530
 categories: OperatingSystem
 ---
 
@@ -9,23 +9,14 @@ categories: OperatingSystem
 
 **Why we need process scheduling?** <br/>
 	
-	- Maximize CPU use and quickly switch processes onto CPU core <br/>
-	- Process scheduler selects among available processes for next execution on CPU core <br/>
-	- Maintains scheduling queues of processes: <br/>
-		+ Ready Queue - set all processes residing in main memory, ready and waiting to execute <br/>
-		+ Wait Queue - set of processes waiting for an event (I/O) <br/>
+	- Maximize CPU use and quickly switch processes onto CPU core 
+	- Process scheduler selects among available processes for next execution on CPU core 
+	- Maintains scheduling queues of processes: 
+		+ Ready Queue - set all processes residing in main memory, ready and waiting to execute 
+		+ Wait Queue - set of processes waiting for an event (I/O) 
 
 
-### **Structure of Process**:
- <br/>
-	1. **Text Section**: Program code <br/>
-	2. **Program Counter**: Processor registers <br/>
-	3. **Stack**: Temporary Data (Function Parameters, return address, local variables) <br/>
-	4. **Data section**: contains global variable <br/>
-	5. **Heap**: containing memory dynamically allocated during run time <br/>
 
-
-ces allocated to process, list of open files <br/>
 
 
 <!-- 
