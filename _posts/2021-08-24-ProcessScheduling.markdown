@@ -8,12 +8,12 @@ categories: OperatingSystem
 ### **Process Scheduling** <br/>
 
 **Why we need process scheduling?** <br/>
-	
-	- Maximize CPU use and quickly switch processes onto CPU core 
-	- Process scheduler selects among available processes for next execution on CPU core 
-	- Maintains scheduling queues of processes: 
-		+ Ready Queue - set all processes residing in main memory, ready and waiting to execute 
-		+ Wait Queue - set of processes waiting for an event (I/O) 
+	<br/>
+	- Maximize CPU use and quickly switch processes onto CPU core <br/>
+	- Process scheduler selects among available processes for next execution on CPU core <br/>
+	- Maintains scheduling queues of processes: <br/>
+		+ Ready Queue - set all processes residing in main memory, ready and waiting to execute <br/>
+		+ Wait Queue - set of processes waiting for an event (I/O) <br/>
 
 
 
