@@ -31,6 +31,16 @@ Above the diagram, <br/>
 6. The process should be waiting for its termination<br/>
 7. it should remove forcefully from the CPU, as a result interrupt. Once interrupt is completed, it should be sent back to ready queue. <br/>
 
+### **Context Switch** <br/>
+A **context switch** occurs when the CPU switches from one process to another. <br/>
+<br/>
+	- When CPU swithces to another process, the system must save the state of the old process and load the saved state for the new process via a context switch <br/>
+	- Context of a process represented in the PCB<br/>
+	- Context-Switch time is overhead; the system does no useful work while switching <br/>
+		+The more complex the OS and the PCB -> the longer the context switch <br/>
+	- Time dependent on hardware support <br/>
+		+ Some hardware provides multiple sets of registers per CPU -> multiple contexts loaded at once<br/>
+
 
 
 
