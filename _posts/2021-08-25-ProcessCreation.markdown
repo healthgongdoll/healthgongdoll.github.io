@@ -65,5 +65,32 @@ categories: OperatingSystem
 
 ```
 <br/>
+### **Process Termination** <br/>
+<br/>
+- Process executes last statement and then asks the operating system to delete it using the exit() system call.<br/>
+1. Returns status data from child to parent(via wait())<br/>
+2. Process's resources are deallocated by operating system <br/>
+<br/>
+- Parent may terminate the execution of children processes using the abort() system call. Some reasons for doing so:<br/>
+1. Child has exceeded allocated resources <br/>
+2. Task assigned to child is no longer required <br/> 
+3. The parent is exiting and the operating system does not allow a child to continue if its parent terminates <br/>
+<br/>
+- Some operating systems do not allow child to exists if its parent has termianted. If a process terminates, then all its children must also be terminated<br/>
+- **Cascading termination**: All children, grandchildren, etc. are terminated<br/>
+- The parent process may wait for termination of a child process by using the wait() system call. The call returns status information and the pid of the terminated process <br/>
+
+```javascript
+	pit t pid 
+	int status 
+	pid = wait(&status);
+```
+<br/>
+### **ZOMBIE PROCESS**<br/> 
+- If no parent waiting (did not invoke wait()) process <br/>
+<br/>
+### **ORPHAN PROCESS**<br/>
+- If parent terminated without invoking wait, process is an orphan 
+
 
 
