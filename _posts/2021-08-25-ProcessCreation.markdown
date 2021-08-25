@@ -6,19 +6,23 @@ categories: OperatingSystem
 ---
 
 ### **Process Creation** <br/>
+d
 <br/>
 	- **Parent** process create **child** processes, which, in turn create other processes, forming a tree of processes<br/>
 	- Process identified and managed via a **process identifier** (pid)<br/>
+	<br/>
 	- Resource sharing options: <br/>
 	<br/>
 		1. Parent and children share all resources<br/>
 		2. Children share subset of parent's resources <br/>
 		3. Parent and child share no resources<br/>
+		<br/>
 	- Execution options: <br/>
 	<br/>
 		1. Parent and children execute concurrently <br/>
 		2. Parent waits until children terminate <br/>
-	- Address Space: <br/>
+		<br/>
+	- **Address Space: **<br/>
 		1. Child duplicate of parent <br/>
 		2. Child has a program loaded into it <br/>
 
