@@ -6,7 +6,7 @@ categories: OperatingSystem
 ---
 
 ### **Process Creation** <br/>
-d
+
 <br/>
 	- **Parent** process create **child** processes, which, in turn create other processes, forming a tree of processes<br/>
 	- Process identified and managed via a **process identifier** (pid)<br/>
