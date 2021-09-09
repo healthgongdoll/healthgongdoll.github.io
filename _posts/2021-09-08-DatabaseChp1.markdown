@@ -17,7 +17,6 @@ categories: Database
  - logically coherent(일관성 있는) collection of data with some inherent meaning<br/>
  <br/>
 ### **Database Management System** <br/>
-<br/>
 	- Computerized system that enable users to create and maintain database.<br/>
 	- General Software System that factilitates the process of **defining**, **constructing**, **manipulating** and **sharing database** among the various users <br/>
 	- The database definition or descriptiive information stored by DBMS inform of a database catalog or dictionary, is called **Meta-Data** (데이터의 데이터를 의미한다.) <br/>
@@ -31,5 +30,37 @@ categories: Database
 ![Image Alt MemoryLayout](/assets/database.png) <br/>
 
 ### Let's Understand with Example: University Database for maintaining information concerning student, courses and grades <br/>
+
+The Database organized with **Five Files** stores data on each student: <br/>
+	- The Course File: Stores data on each courses <br/>
+	- The Section File: Stores data on each section of a course <br/>
+	- The Grade_Report File: Stores the grades that student recieve <br/>
+	- The Student File: stores data on each student <br/>
+	- The Prerequisite File: Stores prerequisite for each courses <br/>
+<br/>
+To define this database, we must specify the structure of the records each file by specifying Different type of **Data - Elements** <br/>
+**Student:** Student_Number, class, major <br/>
+**Course:** Course_Name, Course_Number, Credit_Hour <br/>
+Also specify the **Data type**: Student_Number: integer ... etc <br/>
+<br/>
+
+### Database Manipulation Involves **Querying & Updating**<br/>
+**Query:** <br/>
+	- Retrieve the transcript - a list of all courses and grades of "Smith"<br/>
+	- List of all names of student who took section of the "Database" in fall 2008 <br/>
+	- List of all Prerequisite for "Database" Course <br/>
+
+**Updates** <br/>
+	- Change the class of "Smith" to Sophomore <br/>
+	- Create a New section <br/>
+	- Enter new Grade <br/>
+
+**Characteristic of Database Approach**<br/>
+	- Self-describing nature of a database system: **DBMS catalog** as structure of each file the type and storage format of each data item and various constraint on the data (**META DATA**)<br/>
+	- Insulation between programs and data and data abstraction: **Program-Data Independence** DBMS access program do not require such changes in most cases. The structure of data file is stored in DBMS Catalog sperately from the access program <br/>
+	- Support multiple views of the data: Each user may see different view of database <br/>
+	- Sharing of data and multiuser transaction processing: A multiple user DBMS must allow multiple user to access the database at the same time. Therefore, DBMS must include **concurrency control**. <br/>
+
+
 
 	
