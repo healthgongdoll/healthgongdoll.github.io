@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Network Introduction"
+date:   2021-09-09 17:00:36 +0530
+categories: Network
+---
+
+### **Data Communication** <br/>
+ 
+ Data communication is the **exchange of data between two devices** via some **Transmission Media.** Four Characteristics are: <br/>
+	- **Delivery:** send data to correct destination <br/>
+	- **Accuracy:** Analog Data, Digital Data (Microphone, Keyboards) <br/>
+	- **Timeliness:** Data to be on time (Time sensitive: Electronic Gaming, Zoom, Web Surfing, Time insensitive) <br/>
+	- **Jitter:** Variation in the packet arrival time (One packet is comming 30s, 40s, 50s,... It is the **Variation time of those delays** (Not the Delays)) <br/>
+	Without these 4 characteristics of Communication data is useless <br/>
+
+**Components**<br/>
+A data communications system has **five components**: <br/>
+1. Message <br/>
+2. Sender <br/>
+3. Receiver <br/>
+4. Transmission Medium <br/>
+5. Protocol <br/>
+
+![Image Alt MemoryLayout](/assets/network1.png) <br/>
+
+**Message** <br/>
+Information today comes with different form of text, numbers, images and videos.<br/>
+	- **Text** is represented as a **bit pattern using UNICODE** (Translate character to Unicode bit Pattern 32bit per Character) <br/>
+	- **Numbers** are represented in **binary** <br/>
+	- **Images** are represented as bit patterns using either **RGB or CMY**<br/>
+	- **Audio** refers to the **recording or broadcating** of sound or music, represented as analog or digital signals <br/>
+	- **Videos** can be **continous images** or a **combination of images** <br/>  
+<br/>
+**Data Flow**<br/>
+
+
+
+	
