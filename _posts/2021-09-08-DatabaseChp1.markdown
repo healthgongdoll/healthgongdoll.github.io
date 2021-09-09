@@ -6,8 +6,6 @@ categories: Database
 ---
 
 ### **What is Database Terminologies?** <br/>
-
-<br/>
 **Database:** Collection of related data <br/>
 **Data:** Known facts that can be recorded & have implicit meaning <br/>
 	- Example: Names, Telephone Number, Address of People<br/>
