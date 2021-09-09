@@ -55,13 +55,13 @@ Also specify the **Data type**: Student_Number: integer ... etc <br/>
 
 **Characteristic of Database Approach**<br/>
 <br/>
-	- Self-describing nature of a database system: **DBMS catalog** as structure of each file the type and storage format of each data item and various constraint on the data (**META DATA**)<br/>
+	- **Self-describing nature of a database system:** **DBMS catalog** as structure of each file the type and storage format of each data item and various constraint on the data (**META DATA**)<br/>
 	<br/>
-	- Insulation between programs and data and data abstraction: **Program-Data Independence** DBMS access program do not require such changes in most cases. The structure of data file is stored in DBMS Catalog sperately from the access program <br/>
+	- **Insulation between programs and data and data abstraction:** **Program-Data Independence** DBMS access program do not require such changes in most cases. The structure of data file is stored in DBMS Catalog sperately from the access program <br/>
 	<br/>
-	- Support multiple views of the data: Each user may see different view of database <br/>
+	- **Support multiple views of the data:** Each user may see different view of database <br/>
 	<br/>
-	- Sharing of data and multiuser transaction processing: A multiple user DBMS must allow multiple user to access the database at the same time. Therefore, DBMS must include **concurrency control**. <br/>
+	- **Sharing of data and multiuser transaction processing:** A multiple user DBMS must allow multiple user to access the database at the same time. Therefore, DBMS must include **concurrency control**. <br/>
 	<br/>
 <br/>
 **Advantages of using DBMS Apporach**<br/>
