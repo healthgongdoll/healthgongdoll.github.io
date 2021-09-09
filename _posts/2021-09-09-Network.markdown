@@ -6,12 +6,14 @@ categories: Network
 ---
 
 ### **Data Communication** <br/>
- 
+
+
  Data communication is the **exchange of data between two devices** via some **Transmission Media.** Four Characteristics are: <br/>
 	- **Delivery:** send data to correct destination <br/>
 	- **Accuracy:** Analog Data, Digital Data (Microphone, Keyboards) <br/>
 	- **Timeliness:** Data to be on time (Time sensitive: Electronic Gaming, Zoom, Web Surfing, Time insensitive) <br/>
-	- **Jitter:** Variation in the packet arrival time (One packet is comming 30s, 40s, 50s,... It is the **Variation time of those delays** (Not the Delays)) <br/>
+	- **Jitter:** Variation in the packet arrival time <br/>
+	(One packet is comming 30s, 40s, 50s,... It is the **Variation time of those delays** (Not the Delays)) <br/>
 Without these 4 characteristics of Communication data is useless <br/>
 <br/>
 **Components**<br/>
@@ -42,6 +44,37 @@ Example: Keyboard, Monitor <br/>
 Example: Woki Toki<br/>
 **Full-Duplex**: both station can send or receive at the same time <br/>
 Example: Phone<br/>
+<br/>
+**Networks**<br/>
+**Networks** is the **interconnection of a set of devices** capable of communication (Computers, Laptop) <br/>
+**Device** can be **host** (Desktop,Laptop,Workstation,Phone)<br/>
+**Device** can also be a **connecting device** such as (Router, Switch, Modem) <br/>
+<br/>
+**Network Criteria**
+Network must be able to meet certain number of criteria:<br/>
+1. Performance measured in many ways: <br/>
+Transit time (amount of time required for message to travel from device to another)<br/>
+Response time (elapsed time between an inquiry and a response)<br/>
+2. Network Reliability is measured by: <br/>
+Frequency of failure, the time it takes a link to recover from a failure, and network's robustness in a catastrophe <br/>
+3. Network Security <br/>
+protecting data from damage and development, and implementing policies and procedures for recovery from breaches and data loses<br/>
+<br/>
+**Types of Connection**<br/>
+![Image Alt MemoryLayout](/assets/network3.png) <br/>
+
+<br/>
+**Physical Topology**<br/>
+The physical topology is that the way in which a network is laid out physically <br/>
+Four Basics Topologies: **Mesh**, **Star**, **Bus**, **Ring** <br/>
+![Image Alt MemoryLayout](/assets/network4.png) <br/>
+Mesh: N*(N-1)/2 , Star: N, Bus: N+1, Ring: N<br/>
+<br/>
+**Network Types** <br/>
+Two types: **LANs** and **WANs** <br/>
+Local Area Network: privately owned and connecets some hosts in a single office, building or campus. <br/>
+Wide Area Network: Also conenction of devices capable of communication. A WAN has wider geographical span, spanning a town, a state, a country, even World. <br/>
+
 
 
 	
