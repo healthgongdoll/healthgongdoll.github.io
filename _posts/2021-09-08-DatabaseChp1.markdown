@@ -56,6 +56,7 @@ Also specify the **Data type**: Student_Number: integer ... etc <br/>
 	- Enter new Grade <br/>
 
 **Characteristic of Database Approach**<br/>
+<br/>
 	- Self-describing nature of a database system: **DBMS catalog** as structure of each file the type and storage format of each data item and various constraint on the data (**META DATA**)<br/>
 	<br/>
 	- Insulation between programs and data and data abstraction: **Program-Data Independence** DBMS access program do not require such changes in most cases. The structure of data file is stored in DBMS Catalog sperately from the access program <br/>
@@ -75,7 +76,7 @@ Also specify the **Data type**: Student_Number: integer ... etc <br/>
 7. Representing Complex Relationships among Data <br/>
 8. Enforcing Integrity Constraints <br/>
 
-**When not to use DBMS?**
+**When not to use DBMS?**<br/>
 	- High Initial investment in hardware,software, and training <br/>
 	- The generality that a DBMS provides for defining and processing data <br/>
 	- Overhead for providing security, concurrency control, recovery and integrity functions <br/>
