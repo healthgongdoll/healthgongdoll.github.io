@@ -57,9 +57,35 @@ Also specify the **Data type**: Student_Number: integer ... etc <br/>
 
 **Characteristic of Database Approach**<br/>
 	- Self-describing nature of a database system: **DBMS catalog** as structure of each file the type and storage format of each data item and various constraint on the data (**META DATA**)<br/>
+	<br/>
 	- Insulation between programs and data and data abstraction: **Program-Data Independence** DBMS access program do not require such changes in most cases. The structure of data file is stored in DBMS Catalog sperately from the access program <br/>
+	<br/>
 	- Support multiple views of the data: Each user may see different view of database <br/>
+	<br/>
 	- Sharing of data and multiuser transaction processing: A multiple user DBMS must allow multiple user to access the database at the same time. Therefore, DBMS must include **concurrency control**. <br/>
+	<br/>
+<br/>
+**Advantages of using DBMS Apporach**<br/>
+1. Controlling Redundancy <br/>
+2. Restricted unauthroized access <br/>
+3. Providing storage structures and search technique for efficient query processing<br/>
+4. Providing persistent storage for program object <br/>
+5. Providing backup and recovery <br/>
+6. Providing multiple User Interface<br/>
+7. Representing Complex Relationships among Data <br/>
+8. Enforcing Integrity Constraints <br/>
+
+**When not to use DBMS?**
+	- High Initial investment in hardware,software, and training <br/>
+	- The generality that a DBMS provides for defining and processing data <br/>
+	- Overhead for providing security, concurrency control, recovery and integrity functions <br/>
+**Therefore, It may be more desirable to develop customized database application under following circumstances:** <br/>
+	- Simple, well-defined database application that are not expected to change at all <br/>
+	- Stringent, real-time requirements for some application programs that may not be met because of DBMS overhead <br/>
+	- Embedded Systems with limited storage capacity, where a general - purpose DBMS would not fit <br/>
+	- No multiple user access to data <br/>
+
+
 
 
 
