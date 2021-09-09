@@ -72,8 +72,10 @@ Mesh: N*(N-1)/2 , Star: N, Bus: N+1, Ring: N<br/>
 <br/>
 **Network Types** <br/>
 Two types: **LANs** and **WANs** <br/>
-Local Area Network: privately owned and connecets some hosts in a single office, building or campus. <br/>
-Wide Area Network: Also conenction of devices capable of communication. A WAN has wider geographical span, spanning a town, a state, a country, even World. <br/>
+<br/>
+**Local Area Network**: privately owned and connecets some hosts in a single office, building or campus. <br/>
+<br/>
+**Wide Area Network**: Also conenction of devices capable of communication. A WAN has wider geographical span, spanning a town, a state, a country, even World. <br/>
 
 
 
