@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Network Introduction"
+title:  "Cryptography Introduction"
 date:   2021-09-09 19:00:36 +0530
 categories: Network
 ---
