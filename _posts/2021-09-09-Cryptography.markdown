@@ -51,3 +51,24 @@ Anther benefit is that Even if we lose the **KEY** we can generate new private *
 **Cryptanalysis**<br/>
 - There is no mathmatical proof of security for any partical cipher: only way is to try to braek it <br/>
 - **Kerkhoff's Principle:** A cryptosystem should be secure even if the attacker knows all details about the system, with the exception of the secret key. <br/>
+<br/>
+**Brute Force Attack**<br/>
+- Trial and Error <br/>
+- Trying every key in the key space! <br/>
+- Lends itself naturally to parallel computing <br/>
+- Requires an approximate definition of sucess <br/>
+- Currentl technologies 1 key/microsecond/core: 1second = 1,000,000 microsecond, Cluster can reach 1M/key/microsecond  <br/>
+![Image Alt MemoryLayout](/assets/crypto3.png) <br/>
+<br/>
+**Other form of attacks**<br/>
+- **Attack Models: **<br/>
+1. Known/ Chosen Ciphertext (KCA/CCA)
+2. Known/ Chosen Plaintext (KPA/CPA)
+<br/>
+- **Methodologies** <br/>
+1. Residual Patterns <br/>
+2. Algorithmic/Implementation Vulnerability <br/>
+3. Timing, Linear, and Differential Techniques  <br/>
+4. Dictionary, Rainbow Table <br/>
+5. Birthday <br/>
+6. Meet-in-the-Middle, Man-in-the-Middle <br/>
