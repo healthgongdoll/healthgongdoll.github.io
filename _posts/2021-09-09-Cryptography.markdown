@@ -2,7 +2,7 @@
 layout: post
 title:  "Cryptography Introduction"
 date:   2021-09-09 19:00:36 +0530
-categories: Network
+categories: Cryptography
 ---
 
 ### **Cryptology** <br/>
@@ -11,15 +11,18 @@ categories: Network
 **Cryptology: an Overview** <br/>
 	- Cyptography + Cryptoanalysis
 <br/>
+<br/>
 **CIA traid in Cryptography** <br/>
 It is a designed to guide polices for **information security** <br/>
 	1. **Confidentiality (비밀리)** <br/>
 	Only Authorized individuals / Systems can view sensitive or classified information (Cyptography is one of the tool to helps to obtain confidentiality) <br/>
-	2. **Integrity (진실성) ** <br/>
+	<br/>
+	2. **Integrity (진실성)** <br/>
 		- Of content: Contents are not tampered with (Important that when you send the data, data must not be tampered) <br/>
 		- Of sender: the sender is who he claims to be (Verifiy the integrity of the sender) <br/>
 		- Of Time of Sending: is recent (Things that are not suppose to be reusable)<br/>
 		- Of Act of Sending: non-repudiation (Sender can not walk back)<br/>
+		<br/>
 	3. **Availability** 
 	Making sure the resources are available to its authorized parties <br/>
 <br/>
