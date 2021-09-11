@@ -11,7 +11,7 @@ categories: Database
 A set of concepts:<br/>
 	- To describe the **structure** of a database<br/>
 	- The **operations for manipulating these structures<br/>
-	- **Constraints** that the database should obey<br/>
+	- **constraints** that the database should obey<br/>
 The **relational model** is the most widely used data model<br/>
 <br/>
 **Database Schema:** The description of a database + descriptions of database structure, data types, and the constraints on the database. <br/>
@@ -34,8 +34,11 @@ The **relational model** is the most widely used data model<br/>
 	2. Index on first column of Students. <br/>
 - **External Schema** (View): How it will be structured?<br/>
 	1. Course_info(cid:string, enrollment:int) <br/>
-
 <br/>
+**Diagram for the three schema architecture** <br/>
+![Image Alt MemoryLayout](/assets/threeschema.png) <br/>
+<br/>
+
 **Data Independence**<br/>
 - **Logical Data Independence**<br/>
 The capacity to change the conceptual schema without having to change the external schemas and their associated application programs <br/>
@@ -47,9 +50,12 @@ The capacity to change the internal schema without having to change the conceptu
 Database State/Instance (Snapshot of Database: What is data actual stored in different component of the database that any particualr moment): <br/>
 	- The actual data stored in a dabase at a **particular moment in time**. <br/>
 	- The term **Instance** is also applied to individual database components. <br/>
-	- Schemas (defined variables), Instance (the value of stored in those variable in that time) <br/>
+	- **Schemas (defined variables)**, **Instance (the value of stored in those variable in that time)** <br/>
 <br/>
-
+**Diagram for Schema** <br/>
+![Image Alt MemoryLayout](/assets/schema.png) <br/>
+Schema Diagram displays only some aspects of a schema, such as the name of record types and data items, and some types of constraints. 
+<br/>
 **DBMS Language**
 - **Data Definition Language (DDL)**: Used to specify the **conceptual schema** of a database <br/>
 - **Data Manipulation Language (DML)**: Used to specify database retrievals and updates <br/>
