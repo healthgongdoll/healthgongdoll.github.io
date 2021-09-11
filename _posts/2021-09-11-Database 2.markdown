@@ -35,6 +35,7 @@ The **relational model** is the most widely used data model<br/>
 - **External Schema** (View): How it will be structured?<br/>
 	1. Course_info(cid:string, enrollment:int) <br/>
 <br/>
+
 **Diagram for the three schema architecture** <br/>
 ![Image Alt MemoryLayout](/assets/threeschema.png) <br/>
 <br/>
@@ -52,8 +53,10 @@ Database State/Instance (Snapshot of Database: What is data actual stored in dif
 	- The term **Instance** is also applied to individual database components. <br/>
 	- **Schemas (defined variables)**, **Instance (the value of stored in those variable in that time)** <br/>
 <br/>
+
 **Diagram for Schema** <br/>
 ![Image Alt MemoryLayout](/assets/schema.png) <br/>
+
 Schema Diagram displays only some aspects of a schema, such as the name of record types and data items, and some types of constraints. 
 <br/>
 **DBMS Language**
