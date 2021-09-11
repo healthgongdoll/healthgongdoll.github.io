@@ -11,7 +11,7 @@ categories: Database
 A set of concepts:<br/>
 	- To describe the **structure** of a database<br/>
 	- The **operations for manipulating these structures<br/>
-	- **Constraints** (제약) that the database should obey<br/>
+	- **Constraints** that the database should obey<br/>
 The **relational model** is the most widely used data model<br/>
 <br/>
 **Database Schema:** The description of a database + descriptions of database structure, data types, and the constraints on the database. <br/>
