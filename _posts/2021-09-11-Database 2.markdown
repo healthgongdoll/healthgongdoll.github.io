@@ -57,7 +57,7 @@ Database State/Instance (Snapshot of Database: What is data actual stored in dif
 **Diagram for Schema** <br/>
 ![Image Alt MemoryLayout](/assets/schema.png) <br/>
 
-Schema Diagram displays only some aspects of a schema, such as the name of record types and data items, and some types of constraints. 
+Schema Diagram displays only some aspects of a schema, such as the name of record types and data items, and some types of constraints. <br/>
 <br/>
 **DBMS Language**
 - **Data Definition Language (DDL)**: Used to specify the **conceptual schema** of a database <br/>
