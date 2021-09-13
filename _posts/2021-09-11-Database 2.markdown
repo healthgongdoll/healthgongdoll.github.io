@@ -53,7 +53,7 @@ Entities and Attributes: <br/>
 **Entity Type and Key Attribute** <br/>
 Entities with the **same basic attributes** are grouped into an **entity type**. <br/>
 	- Ex) The entity type EMPLOYEE and PROJECT (Groups together based on similar attribute) <br/>
-An attribute of an entity type for which each entity must have <mark style='background-color: #fff5b1'>  **a unique value is called a key attribute** </mark> of the entity type. <br/>
+An attribute of an entity type for which each entity must have <mark style='background-color: #fff5b1'>  a unique value is called a key attribute </mark> of the entity type. <br/>
 	- EX) SSN of Employee <br/>
 <br/>
 
