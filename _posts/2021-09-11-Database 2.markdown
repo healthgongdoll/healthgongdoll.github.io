@@ -1,65 +1,80 @@
 ---
 layout: post
-title:  "Database Introduction Part 2"
-date:   2021-09-11 19:00:36 +0530
+title:  "Database Data Modeling Using Entity Relationship Model"
+date:   2021-09-13 15:00:36 +0530
 categories: Database
 ---
 
-### **Data Model** <br/>
+### **Overview of Database Design Process** <br/>
 
 
-A set of concepts:<br/>
-	- To describe the **structure** of a database<br/>
-	- The **operations for manipulating these structures<br/>
-	- **constraints** that the database should obey<br/>
-The **relational model** is the most widely used data model<br/>
+Two main activities: <br/>
+	- Database Design <br/>
+	- Application Design <br/>
 <br/>
-**Database Schema:** The description of a database + descriptions of database structure, data types, and the constraints on the database. <br/>
-(데이터베이스 스키마는 데이터 베이스 전체 또는 일부의 논리적 구조를 표현한것으로 데이터 베이스 내에서 데이터가 어떤 구조로 저장되는지를 나타낸다) <br/>
+**Diagram for Database Design**
+![Image Alt MemoryLayout](/assets/databasedesign.png) <br/>
 <br/>
-**Three-Schema Archietecture** <br/>
-<br/>
-	1. **Internal/physical schema**: describes physical storage structures and access paths. (How will it be arrange)<br/>
-	2. **Conceptual schema**: describe the structure and constraints for the whole database. (Logical/ We will be using **relational data model**) <br/>
-	3. **External schemas**: describe the various user views. <br/>
-<br/>
-**Example of a Database Schema**<br/>
-<br/>
-- **Conceptual Schema**: Logical structure that we are going to have in the database / Defining classes<br/>
-	1. Students (sid: string, name: string, login: string, age:int, gpa: real) <br/>
-	2. Courses (cid: string, cname: string, credits: int) <br/>
-	3. Enrolled (sid:string, cid: string, grade: string) <br/>
-- **Physical schema**: actual storage of data (How many students, courses, enrollment we have?) <br/>
-	1. Relations stored as unordered files <br/>
-	2. Index on first column of Students. <br/>
-- **External Schema** (View): How it will be structured?<br/>
-	1. Course_info(cid:string, enrollment:int) <br/>
+1. First of all, take the user requirement from the user requirement <br/>
+2. Identify what are data requirements for the application <br/>
+3. Design the **Conceptual Design** (Work with the model DBMS independent) <br/>
+4. Conceptual design forwarded to the logical design which is Database specific (So it can be implemented) <br/>
 <br/>
 
-**Diagram for the three schema architecture** <br/>
-![Image Alt MemoryLayout](/assets/threeschema.png) <br/>
+**ER Modeling**  <br/>
+- A database **Conceptual Schema** in the ER model can be represented pictorially (ER diagrams). <br/>
+- ER diagram can be converted into a Logical Schema based on relational data model. <br/>
 <br/>
 
-**Data Independence**<br/>
-- **Logical Data Independence**<br/>
-The capacity to change the conceptual schema without having to change the external schemas and their associated application programs <br/>
-<br/>
-- **Physical Data Independence:** <br/>
-The capacity to change the internal schema without having to change the conceptual schema. <br/>
-<br/>
-**Schemas (Structure) VS. Instance**<br/>
-Database State/Instance (Snapshot of Database: What is data actual stored in different component of the database that any particualr moment): <br/>
-	- The actual data stored in a dabase at a **particular moment in time**. <br/>
-	- The term **Instance** is also applied to individual database components. <br/>
-	- **Schemas (defined variables)**, **Instance (the value of stored in those variable in that time)** <br/>
+**Example of Company Database** <br/>
+- We need to create a database schema design based on following **Requirements** of the COMPANY database: <br/>
+	1. The company is oranized into departments. Each department has a **Name**, **Number**, and **an employee** who manages the department <br/>
+		We keep track of the **start date of the department manager**. A department may have several **locations**. <br/>
+	2. Each department **controls** a number of **projects**. Each project has a **unique name**, **unique number** and is **located at a single location**. <br/>
+	3. The database will store each **Employee's Social Security Number**, **address**, **salary**, **sex**, and **birthdate**.  <br/>
+		- Each employee works for one department but may work on several projects <br/>
+		- The DB will keep track of the number of hours per week that an employee currently works on each project. <br/>
+		- It is required to keep track of the direct supervisor of each employee. <br/>
+	4. Each employee may have a number of **DEPENDENTs**. <br/>
+		- For each dependent, the DB keeps record of name, sex, birthdate, and relationship to the employee. <br/>
 <br/>
 
-**Diagram for Schema** <br/>
-![Image Alt MemoryLayout](/assets/schema.png) <br/>
-
-Schema Diagram displays only some aspects of a schema, such as the name of record types and data items, and some types of constraints. <br/>
+**ER Model Concepts**<br/>
+Entities and Attributes: <br/>
 <br/>
-**DBMS Language**
-- **Data Definition Language (DDL)**: Used to specify the **conceptual schema** of a database <br/>
-- **Data Manipulation Language (DML)**: Used to specify database retrievals and updates <br/>
-- SQL is a combination of both DDL and DML for most of DBMS based on relational model <br/>
+	- Entities are specific things or objects in the mini-world that are represented in the database. <br/>
+		- Ex) The Employee John Smith, the Research Department <br/>
+	- Attributes are properties used to describe an entity. <br/>
+		- Ex) Employee entity have attributes: NAME, SSN, Address, Sex, BirthDate <br/>
+	- A specific entity will have a value for each of its attributes. <br/>
+		- Ex) Name = "John Smith", SSN="1234567", Sex="M",BirthDate="1996.01.01" <br/>
+	- Each Attribute has a value set (or data type or domain associated with it) <br/>
+<br/>
+**Entity Type and Key Attribute** <br/>
+Entities with the **same basic attributes** are grouped into an **entity type**. <br/>
+	- Ex) The entity type EMPLOYEE and PROJECT (Groups together based on similar attribute) <br/>
+An attribute of an entity type for which each entity must have <mark style='background-color: #fff5b1'>  **a unique value is called a key attribute** </mark> of the entity type. <br/>
+	- EX) SSN of Employee <br/>
+<br/>
+
+**Entity Set**
+Each entity type will have a collection of entities stored in the database <br/>
+		- Called the entity set or sometimes entity collection <br/>
+		- How many entities we have of that particular kind <br/>
+Entity set is the current state of the entities of that type that are stored in the database <br/>
+<br/>
+
+**Types of Attributes** <br/>
+1. Simple: <br/>
+	- Each entity has a single atomic value for the attribute. EX) SSN or Sex <br/>
+2. Composite: <br/>
+	- The attribute may be composed of several components. EX) Address(Apt#, Street, City, State, ZipCode, Country)/ Name(First, Last Name), may form a hierarchy <br/>
+3. Multi-valued: <br/>
+	- An entity may have multiple values for that attribute. EX) color of a CAR or Previous Degrees of a Student. (Denoted as \{Color\}) <br/>
+<br/>
+
+**Entity Types and Key Attributes** <br/>
+A **Key Attribute** may be **Composite** <br/>
+	- VehicleTagNumber is a key of CAR entity type with compoents (Number, State) <br/>
+An **Entity type** may have more than **one key** <br/>
+	- The CAR entity type may have two keys: VehicalIdentificationNumber, VehicleTagNumber(Number,State) <br/>
