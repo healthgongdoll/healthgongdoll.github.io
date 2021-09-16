@@ -2,7 +2,7 @@
 layout: post
 title:  "Analog and Digital Communication"
 date:   2021-09-15 20:20:36 +0530
-categories: Cryptography
+categories: Network
 ---
 
 ### **Analog vs Digital Communication** <br/>
@@ -139,7 +139,7 @@ VOIP can lose the pixels or voice loss <br/>
 **Mobile Telephone Networks** <br/>
 <br/>
 
-![Image Alt MemoryLayout](/assets/network7.png) <br/>
+![Image Alt MemoryLayout](/assets/network8.png) <br/>
 - MS: Mobile handset <br/>
 - BTS: Mobile phone -> BTS (Base transceiver station): A cell is formed by the coverage area of a Base Transceiver Station which serves the MS in its coverage area <br/>
 - BSC: BaseStation controller contorls the BTS<br/>
