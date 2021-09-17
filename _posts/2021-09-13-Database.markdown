@@ -28,15 +28,15 @@ Two main activities: <br/>
 
 **Example of Company Database** <br/>
 - We need to create a database schema design based on following **Requirements** of the COMPANY database: <br/>
-	1. The company is oranized into departments. Each department has a **Name**, **Number**, and **an employee** who manages the department <br/>
-		We keep track of the **start date of the department manager**. A department may have several **locations**. <br/>
-	2. Each department **controls** a number of **projects**. Each project has a **unique name**, **unique number** and is **located at a single location**. <br/>
-	3. The database will store each **Employee's Social Security Number**, **address**, **salary**, **sex**, and **birthdate**.  <br/>
+	1. The company is oranized into **Departments**. Each department has a <mark style='background-color: #fff5b1'>Name, Number, and an employee </mark> who manages the department <br/>
+		We keep track of the <mark style='background-color: #fff5b1'>start date of the department manager. A department may have several locations.</mark>  <br/>
+	2. Each department controls a number of **Projects**. Each project has a <mark style='background-color: #fff5b1'>unique name, unique number and is located at a single location. </mark> <br/>
+	3. The database will store each **Employee**'s <mark style='background-color: #fff5b1'> social Security Number, address, salary, sex, and birthdate.</mark>  <br/>
 		- Each employee works for one department but may work on several projects <br/>
 		- The DB will keep track of the number of hours per week that an employee currently works on each project. <br/>
 		- It is required to keep track of the direct supervisor of each employee. <br/>
 	4. Each employee may have a number of **DEPENDENTs**. <br/>
-		- For each dependent, the DB keeps record of name, sex, birthdate, and relationship to the employee. <br/>
+		- For each dependent, <mark style='background-color: #fff5b1'>the DB keeps record of name, sex, birthdate, and relationship to the employee.</mark> <br/>
 <br/>
 
 **ER Model Concepts**<br/>
