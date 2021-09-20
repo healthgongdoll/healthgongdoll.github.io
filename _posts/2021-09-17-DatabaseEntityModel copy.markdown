@@ -167,6 +167,7 @@ A relationship type can have attributes: <br/>
 - HoursPerWeek of WORKS_ON <br/>
     - describe the number of hours per week an EMPLOYEE works on a PROJECT <br/>
     - value of HoursPerWeek depends on a particular (employee,project) combination <br/>
+    - Only single attribute is allowed, key attributes and ohter attributes are for entity <br/>
 <br/>
 
 ![Image Alt MemoryLayout](/assets/entity10.png) <br/>
@@ -188,5 +189,7 @@ A relationship type can have attributes: <br/>
 An entity that is identification-dependent on another entity type. <br/>
     - Usually, a multivalued and composite attribute of another entity type (identifying entity type) <br/>
     - A DEPENDENT entity is identified by the EMPLOYEE entity <br/>
+    - Always have 1 to Many relationship with parent entity (Total Participation in Weak Entity type) <br/>
+    - How can we determine the Weak Entity Type?: maybe attribute of some basic main entity (such as address can be weak entity)<br/>
 <br/>
 Double line notation for weak entity type and its "weak relationship type" <br/>
