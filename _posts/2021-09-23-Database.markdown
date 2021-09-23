@@ -9,7 +9,6 @@ categories: Dataase
 
 
 - Relationship types of degree 2 are called **binary** <br/>
-Make sure we c
 - Relationship types of degree 3 are called **ternary** <br/>
 - In General, an n-ary relationship is not equivalent to **n binary relationships**<br/>
 
@@ -94,5 +93,25 @@ An entity type may have additional meaningful subgroupings of its entities <br/>
    - SALARIED_EMPLOYEE<br/>
 <br/>
 
-- It is not necessary that every entity in a superclass be a member of some subclass<br/>
+- It is not necessary that every entity in a superclass be a member of some subclass <br/>
+
+**Representing Specialization in EER Diagrams** <br/>
+
 ![Image Alt MemoryLayout](/assets/ternary2.png) <br/>
+
+- EER diagram notation for an attribute-defined specialization on **JOB_TYPE** <br/>
+- YOU will have an attribute called **job_type** (Role of that entity, subtype of the entity)<br/>
+- Each of the branch we will mention the value of the job_type <br/>
+
+<br/>
+
+**Specialization vs. Generalization** <br/>
+
+<br/>
+
+Specialization is the process of defining a set of subclasses of a superclass <br/>
+   - The set of subclasses is based upon some distinguish characteristics of the entities in the superclass <br/>
+Generalization is the reverse of the specialization process <br/>
+   - Several classes with common features are generalized into a superclass <br/>
+   - original classes become its subclasses <br/>
+ 
