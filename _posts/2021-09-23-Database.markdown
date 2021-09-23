@@ -106,9 +106,7 @@ An entity type may have additional meaningful subgroupings of its entities <br/>
 <br/>
 
 **Specialization vs. Generalization** <br/>
-
 <br/>
-
 Specialization is the process of defining a set of subclasses of a superclass <br/>
    - The set of subclasses is based upon some distinguish characteristics of the entities in the superclass <br/>
 Generalization is the reverse of the specialization process <br/>
