@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "Data Modeling Using the Entity-Realtionship (ER) Model"
+date:   2021-09-23 13:48:36 +0530
+categories: Dataase 
+---
+
+### **Relationship of Higher Degree** <br/>
+
+
+- Relationship types of degree 2 are called **binary** <br/>
+Make sure we c
+- Relationship types of degree 3 are called **ternary** <br/>
+- In General, an n-ary relationship is not equivalent to **n binary relationships**<br/>
+
+<br/>
+
+**Example of a ternary relationship** <br/>
+<br/>
+
+![Image Alt MemoryLayout](/assets/ternary.png) <br/>
+
+<br/>
+(s1,p1,j1) <br/>
+
+- Supplier **S1** has supplied part p1 to the project j1 <br/> 
+(s2,p2,j1) <br/>
+
+- Supplier **S2** has supplied part p2 to the project j1 <br/>
+
+(s1,p2,j2) <br/>
+
+- Supplier **S1** has supplied part p2 to the project j2 <br/>
+<br/>
+
+- Diamond is the **Relationship Type** <br/>
+- Three Relationships or Relationship instances (Relationship states) <br/>
+- When we start to build relationship type, we get the examples from the client when transaction happens: <br/>
+What is the data or what are the data of the particular components of the transaction (Usually this gives us the hint)<br/>
+ 
+<br/>
+
+**What if we build with binary relationship**<br/>
+<br/>
+
+Relationship Types of higher degree than 2 <br/>
+
+- In general, an n-ary relationship is not equivalent to n binary relationships 
+<br/>
+- (s1,p1,j1), (s2,p2,j1),(s1,p2,j2) <br/>
+-  (s1,p1), (s1,p2), (s2,p2)<br/>
+   (p1,j1), (p2,j1), (p2,j2)<br/>
+   (s1,j1), (s2,j1), (s1,j2)<br/>
+   <br/>
+
+**Enhanced Entity-Relationship (EER) Modeling** <br/>
+<br/>
+An entity type may have additional meaningful subgroupings of its entities <br/>
+
+- Example: Employee may be further grouped into: <br/>
+
+1. SECRETARY, ENGINEER, TECHNICIAN (Based on EMPLOYEE's job) <br/>
+2. MANAGER (EMPLOYEEs who are managers (the role they play)) <br/>
+3. SALARIED_EMPLOYEE, HOURLY_EMPLOYEE (Based on the EMPLOYEE's method of pay) <br/>
+<br/>
+
+- Subclasses or subtypes: also called **IS-A** relationships <br/>
+   (SECRETARY is EMPLOYEE, ...) <br/>
+   <br/>
+
+**Subclasses and Superclasses** <br/>
+![Image Alt MemoryLayout](/assets/ternary1.png) <br/>
+- Each Branches from the EMPLOYEE represents one way of categorization (or subtopic) <br/>
+- First you need to decide how many categorization we have <br/> 
+- How many ways of categorization we have <br/>
+- For each branch, how many subtypes you will have: You have to specify those subtypes <br/>
+- Subtypes are also entity <br/> 
+- Circle with **d** : disjoint (The subtype are disjoint which means that if a persone is SECRETARY, Only be SECRETARY)<br/>
+- Circle with **o** : overlapping (The subtype can be overlap: can be SECRETARY and TECHNICIAN)<br/>
+- The **U**, Open side is for the **Parent Entity**, The round side is toward **Child entity** <br/>
+<br/>
+
+**Examples** <br/>
+<br/>
+
+- A salaried employee who is also an engineer belongs to the two subclasses:<br/>
+   - ENGINEER and <br/>
+   - SALARIED_EMPLOYEE <br/>
+<br/>
+
+- A salaried employee who is also an engineering manager belongs to the three subclasses: <br/>
+   - MANAGER <br/>
+   - ENGINEER <br/>
+   - SALARIED_EMPLOYEE<br/>
+<br/>
+
+- It is not necessary that every entity in a superclass be a member of some subclass<br/>
+![Image Alt MemoryLayout](/assets/ternary2.png) <br/>
